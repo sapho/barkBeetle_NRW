@@ -1,0 +1,15 @@
+## install.packages("devtools")
+## devtools::install_github("16EAGLE/getSpatialData")
+
+library(getSpatialData)
+library(sp)
+library(raster)
+library(caret)
+library(mapview)
+library(sf)
+library(randomForest)
+library(sptm)
+library(rgeos)
+library(RStoolbox)
+
+setwd("C:/UNI/Master Thesis/data/")
